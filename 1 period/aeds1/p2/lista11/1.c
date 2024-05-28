@@ -5,7 +5,6 @@ void ordena(int vet[], int index) {
     int menorIndex = index;
     int temp;
     
-    // Encontra o menor elemento na sublista
     for (int i = index + 1; i < 5; i++) {
         if (vet[i] < menor) {
             menor = vet[i];

@@ -14,6 +14,13 @@ typedef struct {
   horas horas_inf;
 } tempo;
 
+typedef struct {
+  char nome[500];
+  float preco;
+  int quant;
+  tempo tempo_inf;
+}prod;
+
 int main() {
   tempo hoje;
   hoje.data_inf.dia = 22;
