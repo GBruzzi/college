@@ -21,5 +21,6 @@ int main() {
   }
 
 
+  free(vet);
   return 0;
 }
