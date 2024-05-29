@@ -12,15 +12,12 @@ int verificaStr(char *str1, char *str2) {
           verifica = 0;
         }
       }
-
       if (verifica) {
         i += j;
         res++;
-      }
-        
+      }        
     }
   }
-
   return res;
 }
 
